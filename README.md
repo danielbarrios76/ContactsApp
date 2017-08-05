@@ -22,7 +22,7 @@ La solucion consta de 3 proyectos:
 
 Los proyectos .Android y . UWP no tienen modificaciones con respecto a la plantilla de Visual Studio
 
-Elproyecto ContactsApp es el PCL y contiene el Model, el ViewModels y la View, que en este caso es la MainPage Unica para los proyectos
+El proyecto ContactsApp es el PCL y contiene el Model, el ViewModels y la View, que en este caso es la MainPage Unica para los proyectos
 
 En Model tenemos la Clase Plana Contact, que tiene 2 simples propiedades publicas name e email.
 
