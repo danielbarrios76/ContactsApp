@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ContactsApp"
+             x:Class="ContactsApp.MainPage">
+
+    <StackLayout Padding="10" Spacing="10">
+        <Label Text="MVVM Cross Xamarin Forms!" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+
+        <StackLayout >
+            <Label Text="Name"/>
+            <Entry Text="{Binding Name}" Placeholder="Full Name"/>
+
+            <Label Text="E-mail"/>
+            <Entry Text="{Binding Email}" Placeholder="Your e-mail acount"/>
+        </StackLayout>
+        <StackLayout>
+            <Button Text="Save Contact" Command="{Binding SaveContactCommand}"/>
+        </StackLayout>
+        <StackLayout >
+            <Label Text="Contact: "/>
+            <Label Text="{Binding DisplayMessage}"/>
+        </StackLayout>
+
+        <ActivityIndicator IsRunning="{Binding IsBusy}"/>
+
+    </StackLayout>
+
+</ContentPage>
