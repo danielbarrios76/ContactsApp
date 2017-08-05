@@ -11,13 +11,13 @@ Descripcion:
 
 La solucion consta de 3 proyectos:
 
-* 1_ ContactsApp
+*  ContactsApp
 
-* 2_ ContactsApp.Android
+*  ContactsApp.Android
 
-* 3_ ContactsApp.UWP
+*  ContactsApp.UWP
 
-** No se incluye el proyecto .iOS
+**No se incluye el proyecto .iOS**
 
 
 Los proyectos .Android y . UWP no tienen modificaciones con respecto a la plantilla de Visual Studio
